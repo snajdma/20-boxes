@@ -1,0 +1,33 @@
+section {
+    width: min-content;
+    border: 2px solid royalblue;
+    margin: 10px;
+    
+}
+
+.container {
+    width: 535px;
+    margin: 20px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box {
+    width: 40px;
+    height: 40px;
+}
+
+.first .box {
+    background-color: royalblue;
+}
+
+.last .box {
+    background-color: purple;
+}
+
+.last {
+    background-color: tomato;
+}
+
